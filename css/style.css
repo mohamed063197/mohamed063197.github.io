@@ -954,6 +954,7 @@ ul ol {
   }
   .section-img, .section-text{
     width:100%;
+    padding:0px 0px;
     height: auto;
   }
 
@@ -1005,12 +1006,10 @@ align-items: flex-start;
   .competence-content{
     display: flex;
     flex-direction: column;
-
-   
   }
-  
-
- 
+  .card-content-competence{
+    flex-direction: column;
+  }
 }
 
 .content-jauge {
@@ -1103,7 +1102,9 @@ align-items: flex-start;
 
 }
 
-
+.RC{
+  display:inline-block;
+}
 
 
 @media screen and (max-width: 990px) and (min-width: 0px){
@@ -1118,5 +1119,8 @@ align-items: flex-start;
   }
   .card-icon{
     margin-bottom: 1rem;
+  }
+  .RC{
+    display:block;
   }
 }
