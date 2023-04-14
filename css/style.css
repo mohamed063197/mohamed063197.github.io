@@ -1070,7 +1070,7 @@ align-items: flex-start;
   justify-content: space-between;
 }
 .card-icon{
-  width:450px;
+  width:100%;
   
   border: 1px solid rgb(195, 195, 195);
   border-radius: var(--rounded);
