@@ -1076,7 +1076,12 @@ align-items: flex-start;
 }
 /* --------------- contact --------*/
 
-
+.section-content-work{
+  flex-direction: column;
+}
+.section-content-work img{
+  width: 100%;
+}
 .footer {
   height: 60px;
 }
