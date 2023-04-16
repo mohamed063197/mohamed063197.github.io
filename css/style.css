@@ -1052,7 +1052,7 @@ align-items: flex-start;
 .wn .jauge,
 .py .jauge,
 .c .jauge {
-  width: 70%;
+  width: 100%;
 }
 
 .jv .jauge,
