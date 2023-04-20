@@ -750,20 +750,32 @@ ul ol {
   --bg-color-dark:rgba(73, 63, 117, .9);
 }
 
-.navbar {
+.banner{
 
+  position:fixed;
+  top:0;  
+  width:100%;
+  z-index: 5;
+}
+.trailer{
+  text-align: center;
+  padding: 10px;
+
+  color:rgb(238, 238, 238);
+  background-color: #4357DC;
+}
+.trailer a{
+  color: inherit;
+}
+
+.navbar {
   height:auto;
   background-color: var(--bg-primary);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position:fixed;
-  top:0;
-  left:0;
-  
-  width:100%;
-  z-index: 5;
+
 }
 
 .navbar-menu {
@@ -903,7 +915,11 @@ ul ol {
 
 
 @media screen and (max-width: 696px) and (min-width: 0px){
+  .header{
+    margin-top:120px;
+  }
   .header-container{
+   
     height:auto;
     flex-direction: column;
     flex-direction: column-reverse;
