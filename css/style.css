@@ -904,6 +904,11 @@ ul ol {
   align-items: center;
 }
 
+.header-subtitle{
+  opacity:.8;
+  letter-spacing: .2rem;
+}
+
 .header-body{
   width:60%;
   height: auto;
